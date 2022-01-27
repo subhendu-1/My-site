@@ -4,6 +4,24 @@ body{
 h1{
     margin-top: 0;
 }
-div{
-    background-color: #E4F9F5;
+.first_box{
+  background-color: #E4F9F5;
+  height: 200px;
+  width: 200px;
+  border: solid 10px;
+  padding: 20px;
+}
+.second_box{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  border: solid 20px;
+  margin-left: 260px;
+}
+.third_box{
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  border: solid 10px;
+  margin-left: 500px;
 }
