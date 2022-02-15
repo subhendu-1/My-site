@@ -5,6 +5,7 @@ h1{
     margin-top: 0;
 }
 .first_box{
+  display: inline-block;
   background-color: #E4F9F5;
   height: 200px;
   width: 200px;
@@ -12,6 +13,7 @@ h1{
   padding: 20px;
 }
 .second_box{
+  display: inline-block;
   background-color: red;
   height: 200px;
   width: 200px;
@@ -19,6 +21,7 @@ h1{
   margin-left: 260px;
 }
 .third_box{
+  display: inline-block;
   background-color: blue;
   height: 200px;
   width: 200px;
