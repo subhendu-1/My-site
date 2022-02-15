@@ -13,7 +13,8 @@
         .container{
             height: 300px;
             width: 300px;
-            position: relative;
+            background-color: antiquewhite;
+            border: 2px solid black;
         }
         .first{
             height: 100px;
@@ -48,15 +49,27 @@
             width: 100px;
             background-color: blue;
             border: 2px solid black;
-            position: absolute;
-            top: 0px;
+            /* position: absolute;
+            top: 0px; */
             /* position: relative;
             display: inline-block; */
             /* bottom: 200px; */
         }
         p{
-            position: relative;
-            top: 295px;
+            /* position: relative;
+            top: 295px; */
+        }
+        /* using position sticky */
+        .sticky3{
+            position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+        }
+        h3{
+            display: inline-block;
+            position: fixed;
+            right: 20px;
         }
         </style>
 </head>
@@ -65,14 +78,15 @@
 <div class="container">
 <div class="third"></div>
 </div>
-    <div class="first">
+    <div class="first"></div>
     <div class="second"></div>
 
-    <p>Subhendu Adak is bad boy</p>
+    <p class="sticky3">Subhendu Adak is bad boy</p>
     <p>Subhendu Adak</p>
     <p>Subhendu Adak</p>
     <p>Subhendu Adak</p>
     <p>Subhendu Adak</p>
+    <h3>Chat Us</h3>
     <p>Subhendu Adak</p>
     <p>Subhendu Adak</p>
     <p>Subhendu Adak</p>
